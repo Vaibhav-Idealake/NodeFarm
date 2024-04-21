@@ -3,9 +3,6 @@ const http = require("http");
 const url = require("url");
 const replaceTemplate = require('./modules/replaceTemplate')
 
-
-
-
 const tempOverview = fs.readFileSync(
   `${__dirname}/templates/template-overview.html`,
   "utf-8"
